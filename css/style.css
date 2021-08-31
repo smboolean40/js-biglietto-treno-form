@@ -1,0 +1,49 @@
+/* Reset */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Common */
+
+body {
+	background-color: #B91450;
+}
+
+.container {
+	max-width: 80%;
+	margin: auto;
+}
+
+.form-biglietto, .biglietto {
+	background-color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+.biglietto {
+	display: none;
+	margin-top: 40px;
+}
+.biglietto.open {
+	display: block;
+}
+/* Typo */
+h2 {
+	color: #fff;
+	text-align: center;
+}
+
+/* Form Biglietto */
+.form-biglietto-campi { 
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.form-biglietto-campi div {
+	width: calc(100% / 3);
+}
+
+.form-biglietto-campi label {
+	display: block;
+}
